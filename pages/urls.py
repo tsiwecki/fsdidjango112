@@ -1,5 +1,6 @@
 from django.urls import path
 from .views import HomePageView, AboutPageView
+from django.views.generic import TemplateView
 
 
 urlpatterns = [
